@@ -1,0 +1,89 @@
+@font-face { 
+    font-family: TT-Lakes;
+    src: url(Fonts/TTLakes-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: TT-Lakes;
+}
+
+body {
+    background-color: #C4C4C4;
+    overflow: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.app {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.search {
+    width: 500px;
+    height: 60px;
+    font-size: 48px;
+    padding-left: 10px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.chosen-container {
+    display: flex;
+    flex-direction: column;
+    margin: 45px auto;
+    width: 500px;
+}
+
+.app-content {
+    margin-top: -1px;
+    width: auto;
+    height: 44px;
+    padding-left: 10px;
+    background-color: #E3E3E3;
+    line-height: 44px;
+    font-size: 24px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.app-content:hover {
+    background-color: #65CDF9;
+    cursor: pointer;
+}
+
+.chosen {
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    padding: 10px 10px;
+    background-color: #E27BEB;
+    border: 1px solid black;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.btn-close {
+    position: absolute;
+    top: 27%;
+    left: 420px;
+    width: 50px;
+    height: 50px;
+    background: url(Img/Cross.png) no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
